@@ -1,3 +1,4 @@
 *.csv
 /Datasets/SourceFiles
 /Datasets/Dimensions
+.DS_Store
