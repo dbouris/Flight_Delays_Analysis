@@ -11,23 +11,15 @@ The task was part of an assignment during the course Business Intelligence and B
 
 The main dataset comes from the The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics and was extracted from [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays?select=airlines.csv). The DOT tracks the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled, and diverted flights is published in DOT's monthly Air Travel Consumer Report and in this dataset of 2015 flight delays and cancellations.
 <br>
-More specifically, the dataset contains the information below for each flight:
-- airline
-- aircraft
-- Flight
-    - departure / destination airport
-    - departure date
-    - scheduled / actual departure & arrival time 
-- weather delay
+<br>
+
+![AircraftTimeline](images/Aircraft_Timeline.png)  
 
 An additional dataset was used in order to obtain information on the aircraft. The database ["Aircraft Registration" from the Federal Aviation Administration](https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download) was used.  
 
-The information gathered is referenced below:
-- aircraft code
-- aircraft model
-- manufacturer 
-- maximun seating capacity
-- number of engines
+The information gathered is depicted in the graphic below
+
+![AircraftInfo](images/Aircraft_Info.png)  
 
 <br>
 
@@ -35,4 +27,4 @@ The core objetive of the task is to identify the factors which cause a flight to
 
 ## Data Warehouse Architecture & ETL process
 
-![Javatpoint](images/Screenshot%202023-08-13%20at%201.59.20%20PM.png)  
+
