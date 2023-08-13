@@ -7,7 +7,7 @@ According to The **United States Federal Aviation Administration (FAA)**, a flig
 
 ![Status](images/Flight_Status.png)  
 
-The purpose of this specific work is to perform a comprehensive data analysis task on a large data set. After the dataset was chosen, a complete ETL procedure was conducted and the data was imported in a datawarehouse architecured with the cube patern. A plethaura of visualization were created. Ultimately, the data imported were utilised for various data mining operations and valuable insights were extracted.
+The purpose of this specific work is to perform a comprehensive data analysis task on flight data in order to identify the factors which cause a flight to be delayed. A datawarehouse and an OLAP Cube is built as well as a complete ETL procedure. Visualizations and data mining operations are ultimately performed.
 
 <br>
 The task was part of an assignment during the course Business Intelligence and Big Data Analytics of the Department of Management Science and Technology in the Athens University of Economics in Greece.
