@@ -1,6 +1,11 @@
 # 2015 Flight Delays and Cancellations
 #### Which airline should you fly on to avoid significant delays?
 
+<br>
+
+According to The **United States Federal Aviation Administration (FAA)**, a flight is considered to be delayed when it arrives 10 minutes later than its scheduled time. We consider a flight to be early when it arrives at least 10 minutes earlier that the scheduled time.
+
+![Status](images/Flight_Status.png)  
 
 The purpose of this specific work is to perform a comprehensive data analysis task on a large data set. After the dataset was chosen, a complete ETL procedure was conducted and the data was imported in a datawarehouse architecured with the cube patern. A plethaura of visualization were created. Ultimately, the data imported were utilised for various data mining operations and valuable insights were extracted.
 
