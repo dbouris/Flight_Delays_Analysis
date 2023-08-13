@@ -45,7 +45,7 @@ An OLAP Cube was implemented and the Star Schema architecture was implemented. I
 
 ## Insights from Visuals
 
-1. Departure Time between 05 and 08 in the morning has the lowest probability for a flight to be delayed. Same applies for the Arrival Time (06-10AM). One would expect that overnight hours are the optimal timeframe but delays then (00-04 AM) are often as due to less traffic controllers on duty, crew and bad weather.
+1. Departure Time between **05 and 08 in the morning** has the **lowest probability of flight delay**. Same applies for the Arrival Time (06-10AM). One would expect that overnight hours are the optimal timeframe but delays then (00-04 AM) are often as due to less traffic controllers on duty, crew and bad weather.
 
 <div align="center">
   <img src="images/DepartureTime_Visual.png" alt="Image" width="550" height="300" />
@@ -53,21 +53,21 @@ An OLAP Cube was implemented and the Star Schema architecture was implemented. I
 
 2. Delta Airlines ranks 1st in Early and On-Time performance
 
-- Spirit Air is late with a 22% probability
-- Hawaiian Airlines flights are mostly on time (76%)
-- Delta Airlines flights arrive early or on time with a 89% probability
+- **Spirit Air** is **late** with a 22% probability
+- **Hawaiian Airlines** flights are mostly **on time** (76%)
+- **Delta Airlines** flights arrive **early or on time** with a 89% probability
 
 <div align="center">
-  <img src="images/Airline_Visual.png" alt="Image" width="300" height="200" />
+  <img src="images/Airline_Visual.png" alt="Image" width="400" height="300" />
 </div>
 
 3. The destination airport is also a crucial factor when it comes causing delays
 
-- Flights landing at the Los Angeles International Airport (LAX) arrive delayed with 18% probability.
-- Flights landing in Hartsfield Jackson Atlanta International Airport arrive mostly early or on time (89%) 
+- Flights landing at the **Los Angeles International Airport (LAX)** arrive **delayed with 18% probability**.
+- Flights landing in **Hartsfield Jackson Atlanta International Airport** arrive mostly **early or on time** (89%) 
 
 <div align="center">
-  <img src="images/Airport_Visual.png" alt="Image" width="300" height="200" />
+  <img src="images/Airport_Visual.png" alt="Image" width="400" height="300" />
 </div>
 
 
