@@ -14,7 +14,7 @@ The task was part of an assignment during the course Business Intelligence and B
 
 ## Dataset 
 
-The main dataset comes from the The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics and was extracted from [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays?select=airlines.csv). The DOT tracks the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled, and diverted flights is published in DOT's monthly Air Travel Consumer Report and in this dataset of 2015 flight delays and cancellations.
+The main dataset comes from the The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics and was extracted from Kaggle: [2015 Flight Delays and Cancellations](https://www.kaggle.com/datasets/usdot/flight-delays?select=airlines.csv). The DOT tracks the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled, and diverted flights is published in DOT's monthly Air Travel Consumer Report and in this dataset of 2015 flight delays and cancellations.
 <br>
 <br>
 
@@ -32,4 +32,17 @@ The core objetive of the task is to identify the factors which cause a flight to
 
 ## Data Warehouse Architecture & ETL process
 
+An OLAP Cube was implemented and the Star Schema architecture was implemented. In total: 1 Fact table & 7 Dimensions
 
+- Fact table
+    - Flight Data & Measures
+- Dimensions
+    - Date
+    - Departure & Arrival Time
+    - Origin & Destination Airport
+    - Airline
+    - Aircraft
+
+<div style="display: flex; justify-content: center;">
+    <img src="images/Star_Schema.png" alt="Image Description" width="300">
+</div>
