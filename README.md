@@ -43,6 +43,15 @@ An OLAP Cube was implemented and the Star Schema architecture was implemented. I
     - Airline
     - Aircraft
 
-<div style="display: flex; justify-content: center;">
-    <img src="images/Star_Schema.png" alt="Image Description" width="300">
+## Insights from Visuals
+
+
+![DepartureTime](images/DepartureTime_Visual.png)
+
+![Airport](images/Airport_Visual.png)
+
+![Airline](images/Airline_Visual.png)  
+
+<div align="center">
+  <img src="images/Airline_Visual.png" alt="Image" width="300" height="200" />
 </div>
