@@ -116,3 +116,15 @@ The model turned out to be precise enough:
 </div>
 
 *A detailed overview of the attributes used foreach of the models can be found [here](/Code/)*
+
+## Flying tips 
+
+1. The least delayed airline is Delta.
+2. The best airport to avoid delays is the Hartsfield Jackson Atlanta International Airport.
+3. The best month to fly is September
+4. The best time to depart and arrive is early morning (04-09 AM).
+
+## Authors 
+
+- [Priovolos Philippos](https://github.com/Philippos01) 
+- [Bouris Dimitris](https://github.com/dbouris)
