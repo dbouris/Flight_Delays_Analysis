@@ -99,14 +99,14 @@ The core causes of a flight delay are visualised in the graph below
 
 The model turned out to be precise enough:
 
-<center>
+<div align="center">
 
 | Metric | Result | 
 |----------|----------| 
 | Mean Absolute Error | 4.5min | 
 | R | 85% | 
 
-</center>
+</div>
 
 3. Predicting whether a flight will arrive delayed or not
 
