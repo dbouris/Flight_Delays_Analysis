@@ -75,11 +75,41 @@ Python libraries were used to perform the ETL process. The datawarehouse as well
 
 ## Predicting the Flight Delay probability
 
-In total, 
+In total, 3 Data Mining tasks were executed.
 
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+<center>
 
+| Model | Task | Business Application |
+|----------|----------| ----------|
+| Clustering (KMeans) | Grouping flights based on reasons of delay | Identifying the main causes |
+| Regression (XGBRegressor) | Predicting a flights delay in minutes | Accurate planning by Airlines and Passengers | 
+| Binary Classification (XGBClassifier) | Predicting whether a flight will arrive delayed or not | Accurate planning by Airlines and Passengers | 
+
+</center>
+
+1. Grouping flights based on reasons of delay
+
+The core causes of a flight delay are visualised in the graph below
+
+<div align="center">
+  <img src="images/Classification_Model.png" alt="Image" width="550" height="300" />
+</div>
+
+2. Predicting a flights delay in minutes
+
+The model turned out to be precise enough:
+
+<center>
+
+| Metric | Result | 
+|----------|----------| 
+| Mean Absolute Error | 4.5min | 
+| R | 85% | 
+
+</center>
+
+3. Predicting whether a flight will arrive delayed or not
+
+<div align="center">
+  <img src="images/Classification_Report.png" alt="Image" width="550" height="300" />
+</div>
