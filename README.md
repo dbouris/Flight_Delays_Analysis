@@ -43,6 +43,9 @@ An OLAP Cube was implemented and the Star Schema architecture was implemented. I
     - Airline
     - Aircraft
 
+Python libraries were used to perform the ETL process. The datawarehouse as well as the OLAP cube were built using Microsofts Visual Studio. The full code can be found [here](/Code/).
+
+
 ## Insights from Visuals
 
 1. Departure Time between **05 and 08 in the morning** has the **lowest probability of flight delay**. Same applies for the Arrival Time (06-10AM). One would expect that overnight hours are the optimal timeframe but delays then (00-04 AM) are often as due to less traffic controllers on duty, crew and bad weather.
@@ -70,4 +73,13 @@ An OLAP Cube was implemented and the Star Schema architecture was implemented. I
   <img src="images/Airport_Visual.png" alt="Image" width="400" height="300" />
 </div>
 
+## Predicting the Flight Delay probability
+
+In total, 
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
