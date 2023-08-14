@@ -51,7 +51,7 @@ Python libraries were used to perform the ETL process. The datawarehouse as well
 1. Departure Time between **05 and 08 in the morning** has the **lowest probability of flight delay**. Same applies for the Arrival Time (06-10AM). One would expect that overnight hours are the optimal timeframe but delays then (00-04 AM) are often as due to less traffic controllers on duty, crew and bad weather.
 
 <div align="center">
-  <img src="images/DepartureTime_Visual.png" alt="Image" width="550" height="300" />
+  <img src="images/DepartureTime_Visual.png" alt="Image" width="600" height="300" />
 </div>
 
 2. Delta Airlines ranks 1st in Early and On-Time performance
