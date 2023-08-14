@@ -87,7 +87,7 @@ In total, 3 Data Mining tasks were executed.
 
 </center>
 
-1. Grouping flights based on reasons of delay
+1. **Grouping flights based on reasons of delay**
 
 The core causes of a flight delay are visualised in the graph below
 
@@ -95,7 +95,7 @@ The core causes of a flight delay are visualised in the graph below
   <img src="images/Classification_Model.png" alt="Image" width="550" height="300" />
 </div>
 
-2. Predicting a flights delay in minutes
+2. **Predicting a flights delay in minutes**
 
 The model turned out to be precise enough:
 
@@ -108,8 +108,11 @@ The model turned out to be precise enough:
 
 </div>
 
-3. Predicting whether a flight will arrive delayed or not
+3. **Predicting whether a flight will arrive delayed or not**
+
 
 <div align="center">
   <img src="images/Classification_Report.png" alt="Image" width="550" height="300" />
 </div>
+
+*A detailed overview of the attributes used foreach of the models can be found [here](/Code/)*
