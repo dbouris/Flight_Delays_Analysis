@@ -12,6 +12,10 @@ The purpose of this specific work is to perform a comprehensive data analysis ta
 <br>
 The task was part of an assignment during the course Business Intelligence and Big Data Analytics of the Department of Management Science and Technology in the Athens University of Economics in Greece.
 
+<br>
+
+An in depth overview of the analysis can be found in the [detailed report](/FlightDelays_Report.pdf). 
+
 ## Dataset 
 
 The main dataset comes from the The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics and was extracted from Kaggle: [2015 Flight Delays and Cancellations](https://www.kaggle.com/datasets/usdot/flight-delays?select=airlines.csv). The DOT tracks the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled, and diverted flights is published in DOT's monthly Air Travel Consumer Report and in this dataset of 2015 flight delays and cancellations.
